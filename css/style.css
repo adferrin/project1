@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html { 
+    background: url('../../Project-1-Lab/85326.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .modal {
+      color:black;
+      font-family: 'Orbitron', sans-serif;
+      font-size: large;
+  }
+
+  .inputField {
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 20px;
+  }
+
+  .findButton {
+      background-color: white;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 20px;
+  }
