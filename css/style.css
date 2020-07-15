@@ -11,6 +11,7 @@ html {
     background-size: cover;
     color: white;
     font-family: 'Orbitron', sans-serif;
+    display: grid;
   }
 
   .modal {
@@ -19,14 +20,16 @@ html {
       font-size: large;
   }
 
-  .inputField {
+  #inputField {
       color: white;
       font-family: 'Orbitron', sans-serif;
+      max-width: fit-content;
       font-size: 20px;
   }
 
   .findButton {
       background-color: white;
       font-family: 'Orbitron', sans-serif;
-      font-size: 20px;
+      font-size: 25px;
   }
+

@@ -15,6 +15,7 @@ let rickData, userInput
 const $name = $('#name');
 const $origin = $('#origin');
 const $status = $('#status');
+const $location = $('#location');
 const $reward = $('#reward');
 const $input = $("input[type='text']");
 const $modal = $('.modal');
@@ -54,25 +55,14 @@ function handleGetData(event) {
     )
 }
 
-function generateHTML() {
-    return rickData.map(function(p) {
-        return `
-        <li class="collection-item red-text">
-            <div style="text-transform: capitalize;">${p.name}
-                <span data-url="${p.url}" class="secondary-content blue-text">
-                Detail
-                </span>
-            </div>
-        </li>`;
-    });
-}
 
 
 function render() {
     $name.html("Name: " + rickData.results[0].name);
     $origin.html("Planet of Origin: " + rickData.results[0].origin.name);
     $status.html("Dead or Alive: " + rickData.results[0].status);
-    $reward.html("Reward: Please Message for actual price - MGMT");
+    $location.html("Last known location: " + rickData.results[0].location.name);
+    $reward.html("Reward: Please Message for price - MGMT");
     $('img').attr('src', rickData.results[0].image);
     instance.open();
 }
