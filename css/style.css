@@ -11,25 +11,34 @@ html {
     background-size: cover;
     color: white;
     font-family: 'Orbitron', sans-serif;
-    display: grid;
   }
 
   .modal {
-      color:black;
-      font-family: 'Orbitron', sans-serif;
-      font-size: large;
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+    background-image: url('../../Project-1-Lab/portal\ gun\ rick\ and\ morty.png');
   }
 
   #inputField {
-      color: white;
-      font-family: 'Orbitron', sans-serif;
-      max-width: fit-content;
-      font-size: 20px;
+    color:   white;
+    font-family: 'Orbitron', sans-serif;
+    max-width: fit-content;
+    font-size: 20px;
   }
 
-  .findButton {
-      background-color: white;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 25px;
+
+  #findButton {
+    color: black;  
+    background-color: rgba(3, 243, 43, 0.904);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+  }
+
+
+  form {
+    display: flex;  
+    justify-content: center;
+    align-items: flex-start;
   }
 

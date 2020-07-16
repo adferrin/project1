@@ -16,7 +16,6 @@ const $name = $('#name');
 const $origin = $('#origin');
 const $status = $('#status');
 const $location = $('#location');
-const $reward = $('#reward');
 const $input = $("input[type='text']");
 const $modal = $('.modal');
 
@@ -62,7 +61,12 @@ function render() {
     $origin.html("Planet of Origin: " + rickData.results[0].origin.name);
     $status.html("Dead or Alive: " + rickData.results[0].status);
     $location.html("Last known location: " + rickData.results[0].location.name);
-    $reward.html("Reward: Please Message for price - MGMT");
     $('img').attr('src', rickData.results[0].image);
     instance.open();
 }
+
+//materialize features 
+
+$(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
