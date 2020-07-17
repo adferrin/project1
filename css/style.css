@@ -4,7 +4,7 @@
 }
 
 html { 
-    background: url('../../Project-1-Lab/85326.jpg') no-repeat center center fixed; 
+    background: url('../85326.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +17,7 @@ html {
     color:white;
     font-family: 'Orbitron', sans-serif;
     font-size: large;
-    background-image: url('../../Project-1-Lab/portal\ gun\ rick\ and\ morty.png');
+    background-image: url('../portal\ gun\ rick\ and\ morty.png');
   }
 
   #inputField {
